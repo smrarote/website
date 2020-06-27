@@ -1,0 +1,60 @@
+#header {
+
+}
+.logo {
+ float: left;
+
+}
+.title {
+ float: right;
+ text-align: center;
+ padding: 10px 10px 10px;
+}
+.nav-bar{
+  text-align: center;
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #3dc21b;
+	background-color:#44c767;
+	border-radius:6px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0p 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.footer {
+  background-color: #092532;
+  color: white;
+}
+.Copyright{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.map {
+ padding: 5px;
+}
+.add {
+ margin: 50px;
+ font-size: 30px;
+}
+.contact {
+  margin: 50px;
+}
+.social-icon{
+  padding: 30px;
+}
