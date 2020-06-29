@@ -16,12 +16,21 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <title>Village|Web</title>
 </head>
 
 <body>
   <!-- header -->
-  <section id="header" class="head-sec">
+  <section id="header">
     <div class="container-fluid">
       <div class="row">
         <div class="logo column">
@@ -29,60 +38,182 @@
         </div>
 
         <div class="title column">
-          <h1>Pimpalgaon Nakvinda Village</h1>
-        </div>
+          <b>
+            <h1>ग्रामपंचायत पिंपळगाव नाकविंदा,</h1>
+          </b> <br>
+          <h3>तालुका- अकोले,जिल्हा - अहमदनगर, महाराष्ट्र.</h3>
 
+          <div class="datetime">
+            <iframe src="http://free.timeanddate.com/clock/i7cil9cc/n1038/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="87" height="36"></iframe>
+          </div>
+        </div>
+        <div class="column devi">
+          <img src="image/devi.jpeg" alt="देवस्थान" height="160px" width="160px">
+          <h5>देवस्थान</h5>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <!-- nav -->
+        <nav class="navbar sticky-top navbar-dark bg-dark">
+
+          <form class="form-inline">
+            <button class="btn" type="button">मुखाप्रुष्ट</button></button>
+            <button class="btn" type="button">ग्रामपंचायत</button>
+            <button class="btn" type="button">शाळा</button>
+            <button class="btn" type="button">ई-सेवा</button>
+            <button class="btn" type="button">विशेष</button>
+            <button class="btn" type="button">बातम्या</button>
+            <button class="btn" type="button">इतिहास</button>
+            <button class="btn" type="button">देवस्थान</button>
+          </form>
+
+        </nav>
+      </div>
+
+    </div>
+  </section>
+  <section id="slide">
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="slider-img" src="image/slider/one.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slider-img" src="image/slider/one.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slider-img" src="image/slider/two.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-    <hr>
-
-    <!-- nav -->
-<nav class="navbar sticky-top navbar-dark bg-dark">
-
-    <form class="form-inline">
-           <button class="btn" type="button">Main button</button>
-           <button class="btn" type="button">Smaller button</button>
-           <button class="btn" type="button">Main button</button>
-           <button class="btn" type="button">Smaller button</button>
-           <button class="btn" type="button">Main button</button>
-           <button class="btn" type="button">Smaller button</button>
-           <button class="btn" type="button">Main button</button>
-           <button class="btn" type="button">Smaller button</button>
-         </form>
-
-</nav>
-
-  </section>
-  <section id="slides">
-    <!-- slide -->
-
   </section>
 
-  <section="options">
-    <!-- option -->
-
-    </section>
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <section id="foot">
-      <!-- footer -->
-      <div class = "footer row">
-        <div class="map column">
-          <iframe width="500" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-wq2rmgK3TsRem2WiTkbVrQ&key=AIzaSyDRwOhATkiorz7hL6hK8yV92r6DnAEY05s" allowfullscreen></iframe>
-        </div>
-        <div class="contact column">
-            <i class="social-icon" ></i> <img src="image/social/facebook.png" height="64px" width="64px" /></i>
-            <i class="social-icon" ></i><img src="image/social/insta.png" height="64px" width="64px" /></i>
-            <i class="social-icon" ></i><img src="image/social/twitter.png" height="64px" width="64px" /></i>
-            <i class="social-icon" ></i><img src="image/social/whatsapp.png" height="64px" width="64px" /></i>
-
-            <p class="Copyright">© Copyright 2020 Lentreo</p>
-        </div>
-        <div class="add column">
-         <p>Pimpalgaon Nakvinda, <br /> Tal- Akole,Dis- Nagar,<br /> Maharashtra.</p>
-        </div>
+  <section id="info">
+    <div class="row">
+      <div class="column gaoninfo">
+        <p class="tex">
+        <h3> प्रस्तावना: </h3> <br>
+         महाराष्ट्र राज्य जैवविविधता मंडळाने महाराष्ट्रातील सर्व स्थानिक स्वराज्य
+         संस्थांमध्येजैविकविविधता कायदा, २००२ व जैविक विविधता नियम, २००८ यामध्ये स्थानिक
+         स्वराज्य संस्थाना दिलेले अधिकार व कर्तेव्ये माहित व्हावी याकरिता जिल्हा, तालुका व गट
+         ग्रामपंचायत स्तरावर एकदिवशीय कार्यशाळा घेवून मार्गदर्शन केले आहे.
+         कायद्यातील तरतुदीनुसार स्थानिक ठिकाणी उपलब्धअसलेल्या जैविक संसाधनाच्या शाश्वत
+         वापराबाबत जागृकता निर्माण करण्यासाठी आणि आजजी उपलब्ध जैविक संशोधन आहेत ती
+         भविष्यातही निरंतर उपलब्ध राहिली पाहिजेत. याकरिता जैविक संसाधनांचे संरक्षण, संवर्धन, शाश्वत
+         वापर व त्यातून मिळणारे फायद्याचे वाटपया काही बाबी समजून घेऊन आत्मसात करणे आवश्यक
+         आहे.
       </div>
-    </section>
+      <div class="column gramtable">
+        <h3>ग्रामपंचायत कार्यकारणी:</h3>
+        <br>
+        <h4>ग्रामपंचायत कार्यकारणी पिंपळगाव नाकविंदा, ता. अकोले, जि. अहमदनगर:</h4>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">क्र.</th>
+              <th scope="col">नाव</th>
+              <th scope="col">पदनाम</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">१</th>
+              <td>सौ.सुमन सदु आढळ</td>
+              <td>सरपंच</td>
+            </tr>
+            <tr>
+              <th scope="row">२</th>
+              <td>सौ.सुनिता सुभाष बगनर</td>
+              <td>उप सरपंच</td>
+            </tr>
+            <tr>
+              <th scope="row">३</th>
+              <td>श्री. नवनाथ नारायण जाधव</td>
+              <td>सदस्य</td>
+            </tr>
+            <tr>
+              <th scope="row">४</th>
+              <td>श्री. दशरथ लक्ष्मन बगनर</td>
+              <td>सदस्य</td>
+            </tr>
+            <tr>
+              <th scope="row">५</th>
+              <td>श्री नवनाथ धावजी बगाड</td>
+              <td>सदस्य</td>
+            </tr>
+            <tr>
+              <th scope="row">६</th>
+              <td>श्री.विश्वास रामनाथ पथवे</td>
+              <td>सदस्य</td>
+            </tr>
+            <tr>
+              <th scope="row">७</th>
+              <td>सौ. उज्वला वाळीबा  लगड</td>
+              <td>सदस्य</td>
+            </tr>
+            <tr>
+              <th scope="row">८</th>
+              <td>सौ. ज्योती साहेबराव मेंगाळ</td>
+              <td>सदस्य</td>
+            </tr>
+            <tr>
+              <th scope="row">९</th>
+              <td>कु.मीना केशव गायकवाड</td>
+              <td>सदस्य</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="foot">
+    <!-- footer -->
+    <div class="footer row">
+      <div class="map column">
+        <iframe width="350" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=pimplgaon%20nakvinda&key=AIzaSyDRwOhATkiorz7hL6hK8yV92r6DnAEY05s" allowfullscreen></iframe>
+      </div>
+      <div class="contact column">
+        <i class="social-icon"><img src="image/social/facebook.png" height="64px" width="64px" /></i>
+        <i class="social-icon"><img src="image/social/insta.png" height="64px" width="64px" /></i>
+        <i class="social-icon"><img src="image/social/twitter.png" height="64px" width="64px" /></i>
+        <i class="social-icon"><img src="image/social/whatsapp.png" height="64px" width="64px" /></i>
+
+        <p class="Copyright">© Copyright 2020 Lentreo</p>
+      </div>
+      <div class="add column">
+        <p>ग्रामपंचायत पिंपळगाव नाकविंदा,<br /> तालुका- अकोले, जिल्हा - अहमदनगर,<br />महाराष्ट्र.</p>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
