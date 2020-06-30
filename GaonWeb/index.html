@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -30,45 +30,62 @@
 
 <body>
   <!-- header -->
-  <section id="header">
+  <section id="header" class="head">
     <div class="container-fluid">
       <div class="row">
-        <div class="logo column">
-          <img src="image/log.jpeg" alt="village|logo" height="160" width="160">
+        <div class="logo col-md-2 col-xs-3">
+          <img src="image/log.png" alt="village|logo">
         </div>
 
-        <div class="title column">
-          <b>
-            <h1>ग्रामपंचायत पिंपळगाव नाकविंदा,</h1>
-          </b> <br>
-          <h3>तालुका- अकोले,जिल्हा - अहमदनगर, महाराष्ट्र.</h3>
-
+        <div class="title col-md-8 col-xs-6">
+            <b><p  class="gaonname">ग्रामपंचायत पिंपळगाव नाकविंदा,</p></b>
+            <p class="gaonadd">तालुका- अकोले,जिल्हा- अहमदनगर, महाराष्ट्र.</p>
           <div class="datetime">
             <iframe src="http://free.timeanddate.com/clock/i7cil9cc/n1038/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="87" height="36"></iframe>
           </div>
         </div>
-        <div class="column devi">
-          <img src="image/devi.jpeg" alt="देवस्थान" height="160px" width="160px">
-          <h5>देवस्थान</h5>
+        <div class=" devi col-md-2 col-xs-3">
+          <img src="image/devi.jpeg" alt="देवस्थान">
+          <b><p>देवस्थान</p></b>
         </div>
       </div>
-      <div class="nav-bar">
-        <!-- nav -->
-        <nav class="navbar sticky-top navbar-dark bg-dark">
 
-          <form class="form-inline">
-            <button class="btn" type="button">मुखाप्रुष्ट</button></button>
-            <button class="btn" type="button">ग्रामपंचायत</button>
-            <button class="btn" type="button">शाळा</button>
-            <button class="btn" type="button">ई-सेवा</button>
-            <button class="btn" type="button">विशेष</button>
-            <button class="btn" type="button">बातम्या</button>
-            <button class="btn" type="button">इतिहास</button>
-            <button class="btn" type="button">देवस्थान</button>
-          </form>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        </nav>
-      </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">मुखपृष्ठ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">ग्रामपंचायत</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">शाळा</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">ई-सेवा</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">विशेष</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">बातम्या</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">इतिहास</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">देवस्थान</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
 
     </div>
   </section>
@@ -117,7 +134,7 @@
 
   <section id="info">
     <div class="row">
-      <div class="column gaoninfo">
+      <div class="col gaoninfo">
         <p class="tex">
         <h3> प्रस्तावना: </h3> <br>
          महाराष्ट्र राज्य जैवविविधता मंडळाने महाराष्ट्रातील सर्व स्थानिक स्वराज्य
@@ -130,7 +147,7 @@
          वापर व त्यातून मिळणारे फायद्याचे वाटपया काही बाबी समजून घेऊन आत्मसात करणे आवश्यक
          आहे.
       </div>
-      <div class="column gramtable">
+      <div class="col gramtable">
         <h3>ग्रामपंचायत कार्यकारणी:</h3>
         <br>
         <h4>ग्रामपंचायत कार्यकारणी पिंपळगाव नाकविंदा, ता. अकोले, जि. अहमदनगर:</h4>
@@ -198,19 +215,18 @@
   <section id="foot">
     <!-- footer -->
     <div class="footer row">
-      <div class="map column">
-        <iframe width="350" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=pimplgaon%20nakvinda&key=AIzaSyDRwOhATkiorz7hL6hK8yV92r6DnAEY05s" allowfullscreen></iframe>
+      <div class="map col-md-4 col-xs-5">
+        <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=pimplgaon%20nakvinda&key=AIzaSyDRwOhATkiorz7hL6hK8yV92r6DnAEY05s" allowfullscreen></iframe>
       </div>
-      <div class="contact column">
-        <i class="social-icon"><img src="image/social/facebook.png" height="64px" width="64px" /></i>
-        <i class="social-icon"><img src="image/social/insta.png" height="64px" width="64px" /></i>
-        <i class="social-icon"><img src="image/social/twitter.png" height="64px" width="64px" /></i>
-        <i class="social-icon"><img src="image/social/whatsapp.png" height="64px" width="64px" /></i>
-
+      <div class="contact  col-md-4 col-xs-4">
+        <img class="social-icon" src="image/social/facebook.png"/>
+        <img class="social-icon" src="image/social/insta.png"/>
+        <img class="social-icon" src="image/social/twitter.png"/>
+        <img class="social-icon" src="image/social/whatsapp.png"/>
         <p class="Copyright">© Copyright 2020 Lentreo</p>
       </div>
-      <div class="add column">
-        <p>ग्रामपंचायत पिंपळगाव नाकविंदा,<br /> तालुका- अकोले, जिल्हा - अहमदनगर,<br />महाराष्ट्र.</p>
+      <div class="add col-md-4 col-xs-3">
+        <p>ग्रामपंचायत पिंपळगाव नाकविंदा,<br /> तालुका- अकोले, जिल्हा- अहमदनगर,<br />महाराष्ट्र.</p>
       </div>
     </div>
   </section>
